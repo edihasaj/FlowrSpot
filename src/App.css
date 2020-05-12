@@ -1,0 +1,282 @@
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Main-container {
+  background-image: url("./components/images/pl-hero.png");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Main-content {
+  padding-top: 154px;
+  text-align: center;
+}
+
+#main-content-form {
+  display: inline-block;
+  width: 40%;
+  padding-top: 62px;
+}
+
+#form-basic-text {
+  height: 50px;
+}
+
+.Card-img-caption {
+  position: relative;
+}
+  
+.Card-img-caption .Card-img-flower {
+  z-index: 0;
+}
+    
+.Card-img-caption .Card-text {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+}
+
+.Card-img-gradient {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Card-text {
+  padding-top: 87%;
+  color: white;
+  display: inline;
+  z-index: 2;
+}
+
+#card-container {
+  padding-top: 90px;
+  overflow: hidden;
+}
+
+.Card-item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#flower-name {
+  margin-bottom: 0 !important;
+  font-size: 20px;
+}
+
+.button {
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+}
+
+#sightings-button {
+  height: 30px;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, .7);
+  color: white;
+  padding: 5px 20px 5px 20px;
+  font-size: 12px;
+}
+
+#lating-name {
+  font-size: 12px;
+}
+
+.Card-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 350px;
+}
+
+#favorite-button {
+  z-index: 4;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  color: white;
+  padding: 0;
+}
+
+#star-icon {
+  margin-bottom: 3px;
+}
+
+#main-form {
+  position: relative;
+  z-index: 1;
+}
+
+#material-icon {
+  position: absolute;
+  z-index: 2;
+  top: 14px;
+  right: 12px;
+}
+
+.Primary-color {
+  color: #EAA79E;
+  box-shadow: 0px 15px 20px rgba(234, 168, 159, 0.2);
+}
+
+.col-lg-3 {
+  flex: 0 0 22%;
+  max-width: 25%;
+}
+
+.Pink-background-gradient-color {
+  background: linear-gradient(270deg, #ECBCB3 0%, #EAA79E 100%);
+  box-shadow: 0px 15px 20px rgba(234, 168, 159, 0.2);
+}
+
+.New-account-button {
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 8px;
+  margin-right: 1.5rem;
+  color: white;
+  padding-bottom: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 30px;
+}
+
+.Nav-item {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.sign-up-modal {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#create-account-button {
+  height: 50px;
+  padding-top: 5px;
+}
+
+.form-control:focus {
+  border-color: #EAA79E;
+  box-shadow: 0 0 0 0.2rem rgba(234, 168, 159, 0.2);
+} 
+
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.no-register-button {
+  margin-top: 30px;
+  margin-bottom: -60px;
+  color: rgba(255, 255, 255, .8);
+}
+
+.no-register-button:hover {
+  color: #EAA79E;
+}
+
+.signup-modal-title {
+   padding-bottom: 20px;
+   font-size: 20px;
+}
+
+.ok-button {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.button {
+  outline: none !important;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.success-signup-modal {
+  padding: 24px !important;
+}
+
+.ok-button-modal {
+  margin-right: 20px;
+}
+
+.navbar-profile-picture {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-image: url("./components/images/menu_profile_holder.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 20px;
+}
+.profile-modal {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  padding-left: 110px;
+  padding-right: 110px;
+}
+
+.profile-label {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.profile-text {
+  font-size: 18px;
+}
+
+.logout-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.logout-button-modal {
+  height: 50px;
+  width: 150px;
+}
+
+.profile-image-modal {
+  height: 80px;
+  width: 80px;
+  background-image: url("./components/images/profile-holder.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+.profile-header-modal {
+  padding-bottom: 20px;
+}
+
+.profile-header-text {
+  margin-top: 15px;
+}
+
+.profile-content-text {
+  padding-top: 10px;
+}
+
+.remove-button {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: rgba(0, 0, 0, .5);
+}
